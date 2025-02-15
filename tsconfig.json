@@ -1,9 +1,13 @@
 {
   "compilerOptions": {
+    "baseUrl": "src/",
     "lib": ["esnext", "dom"],
     "jsx": "react-jsx",
     "module": "ESNext",
     "moduleResolution": "bundler",
+    "paths": {
+      "@/components/*": ["components/*"]
+    },
     "strictNullChecks": true
   }
 }
